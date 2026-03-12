@@ -1,0 +1,6 @@
+numpy>=1.21
+gymnasium>=0.26
+stable-baselines3>=2.0
+tensorboard>=2.12
+pyyaml>=6.0
+shimmy>=1.0

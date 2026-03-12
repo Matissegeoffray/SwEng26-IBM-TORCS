@@ -1,0 +1,12 @@
+__pycache__
+
+gym_torcs/ml/checkpoints/*
+!gym_torcs/ml/checkpoints/best_model.zip
+!gym_torcs/ml/checkpoints/best_model_replay_buffer.pkl
+!gym_torcs/ml/checkpoints/obs_normalizer.pkl
+!gym_torcs/ml/checkpoints/latest_model.zip
+!gym_torcs/ml/checkpoints/latest_replay_buffer.pkl
+!gym_torcs/ml/checkpoints/latest_normalizer.pkl
+!gym_torcs/ml/checkpoints/training_meta.json
+gym_torcs/ml/logs/
+*.monitor.csv

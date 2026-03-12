@@ -1,0 +1,36 @@
+# Environment configuration
+env:
+  vision: false
+  throttle: true
+  gear_change: false
+  relaunch_every: 0 # 0 = disabled triggers every block
+  obs_set: "no_opponents"
+
+train:
+  algorithm: "SAC"
+  total_timesteps: 100000 # steps per training block
+  seed: 43
+  log_dir: "logs"
+  checkpoint_dir: "checkpoints"
+  checkpoint_freq: 10000 # save a checkpoint every N timesteps
+  n_eval_episodes: 5
+
+  # SAC hyperparameters
+  learning_rate: 0.0003
+  buffer_size: 300000
+  learning_starts: 10000
+  batch_size: 256
+  tau: 0.005
+  gamma: 0.99
+  gradient_steps: 1
+  ent_coef: "auto"
+  target_entropy: "auto"
+  net_arch: [256, 256]
+  max_blocks: 100
+  normalize_obs: true
+  normalize_reward: false
+
+eval:
+  model_path: "checkpoints/best_model.zip"
+  num_episodes: 10
+  results_path: "results.json"
