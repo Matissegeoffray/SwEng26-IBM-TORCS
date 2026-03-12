@@ -6,7 +6,7 @@ Train / evaluate an RL agent on TORCS with Stable-Baselines3.
 
 ```
 gym_torcs/
-├── gym_torcs.py          ← TorcsEnv (not modified)
+├── gym_torcs.py          ← TorcsEnv
 └── ml/
     ├── config.yaml
     ├── wrappers.py       ← Gymnasium wrapper
