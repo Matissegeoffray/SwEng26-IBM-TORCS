@@ -1,0 +1,36 @@
+{
+  "num_episodes": 1,
+  "avg_reward": 4434.1025,
+  "avg_length": 2905,
+  "std_reward": 0.0,
+  "episodes": [
+    {
+      "episode_length": 2905,
+      "total_reward": 4434.1025,
+      "terminal_reason": "off_track",
+      "reward_total_last": -9.166286330417993,
+      "raw_progress_last": 69.24435109024458,
+      "on_track_factor_last": null,
+      "r_dist_progress_last": null,
+      "r_progress_last": null,
+      "r_speed_bonus_last": null,
+      "r_track_prox_last": null,
+      "p_heading_last": null,
+      "p_low_speed_last": null,
+      "p_offtrack_last": null,
+      "p_time_last": null,
+      "p_reverse_last": null,
+      "p_steer_last": null,
+      "p_lateral_last": null,
+      "p_collision_last": 0.0,
+      "p_terminal_last": 8.0,
+      "track_pos_last": -1.00775,
+      "speed_x_last": 125.839,
+      "dist_delta_last": null,
+      "damage_delta_last": 0.0,
+      "lap_time": null,
+      "off_track": true,
+      "damage": 0.0
+    }
+  ]
+}
